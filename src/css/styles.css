@@ -1,0 +1,72 @@
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.aside-content {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.aside-content h1 {
+    color: hsl(35, 77%, 62%);
+}
+
+.aside-content article h2 {
+    color: hsl(36, 100%, 99%);
+}
+
+.aside-content article p {
+    color: hsl(233, 8%, 79%);
+    font-size: .9rem;
+}
+
+/* .aside-content article:not(.aside-content article:last-child)::after {
+    content: "";
+    display: block;
+    height: 1px;
+    opacity: .3;
+    background-color: hsl(233, 8%, 79%);
+} */
+
+.btn-p {
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    letter-spacing: 4px;
+    transition: opacity 500ms;
+}
+
+.btn-p:hover,
+.btn-p:focus {
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    opacity: .8;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.main-header {
+    font-size: 3em;
+}
+
+.articale-num {
+    opacity: .65;
+}
+
+.card-text,
+.main-text {
+    color: hsl(236, 13%, 42%);
+}
+
+.card,
+.aside-content article {
+    cursor: pointer;
+}
+
+.card-text {
+    font-size: .9rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

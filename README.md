@@ -16,7 +16,7 @@ A news website homepage built with bootstrap
 
 ## Links
 
-- [Live Site](https://your-live-site-url.com)
+- [Live Site](https://marknews.netlify.app/)
 
 ## Built with
 

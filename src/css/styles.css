@@ -1,72 +1,117 @@
+:root {
+    --very-dark-blue: hsl(240, 100%, 5%);
+    --soft-red: hsl(5, 85%, 63%);
+    --dark-yellow: hsl(35, 77%, 62%);
+    --white: hsl(36, 100%, 99%);
+    --grey: hsl(233, 8%, 79%);
+    --dark-blue: hsl(236, 13%, 42%);
+}
+
 body {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Inter', sans-serif;
 }
 
-.aside-content {
-    background-color: hsl(240, 100%, 5%);
+hr {
+    color: var(--white);
 }
 
-.aside-content h1 {
-    color: hsl(35, 77%, 62%);
-}
+/* Nav */
 
-.aside-content article h2 {
-    color: hsl(36, 100%, 99%);
-}
-
-.aside-content article p {
-    color: hsl(233, 8%, 79%);
-    font-size: .9rem;
-}
-
-/* .aside-content article:not(.aside-content article:last-child)::after {
-    content: "";
-    display: block;
-    height: 1px;
-    opacity: .3;
-    background-color: hsl(233, 8%, 79%);
-} */
-
-.btn-p {
-    background-color: hsl(5, 85%, 63%);
-    color: hsl(36, 100%, 99%);
-    letter-spacing: 4px;
-    transition: opacity 500ms;
-}
-
-.btn-p:hover,
-.btn-p:focus {
-    color: hsl(36, 100%, 99%);
-    background-color: hsl(5, 85%, 63%);
-    opacity: .8;
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--soft-red);
 }
 
 .navbar-toggler:focus {
     box-shadow: none;
 }
 
+/* Aside */
+
+.aside-content {
+    background-color: var(--very-dark-blue);
+}
+
+.aside-content h1,
+.aside-content article:hover>a h2,
+.aside-content article:focus>a h2 {
+    color: var(--dark-yellow);
+}
+
+.aside-content article p {
+    color: var(--grey);
+    font-size: .9rem;
+}
+
+/* Main */
+
+.btn-p:hover,
+.btn-p:focus,
+.btn-p {
+    background-color: var(--soft-red);
+}
+
+.btn-p {
+    letter-spacing: 4px;
+}
+
+.btn-p:hover,
+.btn-p:focus {
+    opacity: .8;
+}
+
 .main-header {
     font-size: 3em;
 }
+
+/* Cards */
 
 .articale-num {
     opacity: .65;
 }
 
 .card-text,
-.main-text {
-    color: hsl(236, 13%, 42%);
+.main-text,
+.attribution a {
+    color: var(--dark-blue);
 }
+
+.card-text,
+.attribution a:hover,
+.attribution a:focus {
+    font-size: .9rem;
+}
+
+.card-title {
+    color: black;
+}
+
+.card:hover .card-title,
+.card:focus .card-title {
+    color: var(--soft-red);
+}
+
+/* Mixed */
 
 .card,
 .aside-content article {
     cursor: pointer;
 }
 
-.card-text {
-    font-size: .9rem;
+.aside-content article h2,
+.btn-p,
+.btn-p:hover,
+.btn-p:focus {
+    color: var(--white);
 }
 
+.aside-content article h2,
+.card-title,
+.nav-link {
+    transition: color 350ms;
+}
+
+.btn-p,
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    transition: opacity 500ms;
 }

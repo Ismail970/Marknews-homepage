@@ -10,9 +10,9 @@ A news website homepage built with bootstrap
 
 ## Screenshot
 
-![](screenshots/Mark-News-homepage.png)
+![](screenshots/screenshot-localhost_5173-2023.01.22-19_22_54.png)
 
-![](screenshots/Mark-News-homepage-mobile.png)
+![](screenshots/screenshot-localhost_5173-2023.01.22-19_24_02.png)
 
 ## Links
 
@@ -21,7 +21,6 @@ A news website homepage built with bootstrap
 ## Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Bootstrap 5
+- CSS
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Vite](https://vitejs.dev/)
